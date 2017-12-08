@@ -40,7 +40,7 @@ public class NaviActivity extends FragmentActivity implements OnMapReadyCallback
 
 
         // Add a marker in Sydney and move the camer1a
-        LatLng northPole = new LatLng(64.7511, 147.3494);
+        LatLng northPole = new LatLng(-77, 23);
         mMap.addMarker(new MarkerOptions().position(northPole).title("Hi Cin :)"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(northPole));
     }
